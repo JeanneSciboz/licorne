@@ -7,91 +7,108 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-10">
-          <div class="nav">
-            <h1></h1>
-            <a href="#">notre histoire</a>
-            <a href="#">nos bières</a>
-            <a href="#">shop</a>
-            <a href="#">point de vente</a>
-            <a href="#">contact</a>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <nav class="nav">
+              <h1><img src="/src/img/logo.svg" alt="le logo." /></h1>
+              <a class="nav-link" href="#">notre histoire</a>
+              <a class="nav-link" href="#">nos bières</a>
+              <a class="nav-link" href="#">shop</a>
+              <a class="nav-link" href="#">point de vente</a>
+              <a class="nav-link" href="#">contact</a>
+            </nav>
           </div>
-        </div>
-        <div class="col-2">
-          <div class="language">
-            <a href="#">FR</a>
-            <a href="#">DE</a>
-            <a href="#">EN</a>
-          </div>
-          <img
-            src="/src/img/shopping.svg"
-            alt="Un logo d'un panier de shopping."
-          />
-          <img src="/src/img/user.svg" alt="Un logo de user" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <p>Savourer l'instant, sans alcool.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-7">
-          <p class="text-presentation">
-            Bienvenue chez Brasserie Lic%rne, votre spécialiste local de la
-            bière sans alcool ! Située au cœur de notre belle région
-            d’Estavayer-le-Lac, où nous allions tradition et innovation.
-          </p>
-          <a href="#">découvrir plus sur notre histoire</a>
-        </div>
-        <div class="col-5">
-          <img src="/src/img/packshot.png" alt="Une photo des trois bières." />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <h2>Nos valeurs</h2>
-          <div class="valeur">
-            <p>100%</p>
-            <p>local</p>
-          </div>
-          <div class="valeur">
-            <p>0%</p>
-            <p>alcool</p>
-          </div>
-          <div class="valeur">
-            <p>100%</p>
-            <p>vegan</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <div class="card">
-            <h3>blonde</h3>
-            <img src="/src/img/biere-blonde.png" alt="" />
-          </div>
-          <div class="card-infos">
-            <div>ingrédients:</div>
-            <div>33cl</div>
-            <div>
-              Eau, malt d’orge, colorant : E150c, arôme naturel, houblon.
+          <div class="col-2">
+            <div class="nav-container">
+              <nav class="nav-language">
+                <a href="#">FR</a>
+                <a href="#">DE</a>
+                <a href="#">EN</a>
+              </nav>
+              <div class="nav-cta">
+                <img
+                  src="/src/img/shopping.svg"
+                  alt="Un logo d'un panier de shopping."
+                />
+                <img src="/src/img/user.svg" alt="Un logo de user" />
+              </div>
             </div>
-            <div>Allergènes : Gluten</div>
-            <button>
-              <div>ajouter au panier</div>
-              <img src="/src/img/shopping.svg" alt="" />
-            </button>
-            <div>4.60.-</div>
           </div>
         </div>
-        <div class="col-4">colonne 8</div>
-        <div class="col-4">colonne 9</div>
       </div>
-      <div class="col-12">colonne 10</div>
-    </div>
+      <div class="header-video-container">
+        <video loop autoplay muted class="header-video">
+          <source src="/src/img/video.mp4" />
+        </video>
+        <p class="header-video-text">
+          Savourer l'instant,<br />
+          sans alcool.
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <p class="text-presentation">
+              Bienvenue chez Brasserie Lic%rne, votre spécialiste local de la
+              bière sans alcool ! Située au cœur de notre belle région
+              d’Estavayer-le-Lac, où nous allions tradition et innovation.
+            </p>
+            <a href="#">découvrir plus sur notre histoire</a>
+          </div>
+          <div class="col-5">
+            <img
+              src="/src/img/packshot.png"
+              alt="Une photo des trois bières."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2>Nos valeurs</h2>
+            <div class="valeur">
+              <p>100%</p>
+              <p>local</p>
+            </div>
+            <div class="valeur">
+              <p>0%</p>
+              <p>alcool</p>
+            </div>
+            <div class="valeur">
+              <p>100%</p>
+              <p>vegan</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <h3>blonde</h3>
+              <img src="/src/img/biere-blonde.png" alt="" />
+            </div>
+            <div class="card-infos">
+              <div>ingrédients:</div>
+              <div>33cl</div>
+              <div>
+                Eau, malt d’orge, colorant : E150c, arôme naturel, houblon.
+              </div>
+              <div>Allergènes : Gluten</div>
+              <button>
+                <div>ajouter au panier</div>
+                <img src="/src/img/shopping.svg" alt="" />
+              </button>
+              <div>4.60.-</div>
+            </div>
+          </div>
+          <div class="col-4">colonne 8</div>
+          <div class="col-4">colonne 9</div>
+        </div>
+        <div class="col-12">colonne 10</div>
+      </div>
+    </main>
 
     <script src="js/main.js" type="module"></script>
   </body>

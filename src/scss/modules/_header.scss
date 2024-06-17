@@ -1,0 +1,20 @@
+.header-video-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 175px;
+}
+
+.header-video {
+  position: absolute;
+  z-index: -1;
+}
+
+.header-video-text {
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}

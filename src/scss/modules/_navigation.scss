@@ -1,0 +1,22 @@
+.nav a {
+  text-decoration: none;
+}
+
+.nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  gap: 30px;
+}
+
+.nav-container {
+  position: absolute;
+  display: flex;
+  gap: 0px;
+}
+
+.nav-language a {
+  text-decoration: none;
+}
