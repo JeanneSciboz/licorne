@@ -1,0 +1,26 @@
+h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 274px;
+  margin-bottom: 25px;
+}
+
+.values {
+  margin-bottom: 300px;
+}
+
+.values-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.values-all-logo {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 40px 0px;
+  margin: 0 288px;
+}
