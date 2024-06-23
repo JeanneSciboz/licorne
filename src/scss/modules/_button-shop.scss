@@ -5,6 +5,12 @@
   background-color: #24241b;
   padding: 16px 55px;
   border: none;
-  margin-top: 225px;
+  margin-top: 50px;
+  margin-bottom: 225px;
+}
+
+.button-shop-container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

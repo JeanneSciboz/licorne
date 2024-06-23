@@ -1,3 +1,63 @@
+.col-4 {
+  width: 33.3333%; /* Since it's col-4, which is 4/12 of the row */
+  padding: 0; /* Remove padding if any */
+}
+
+.card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-img-product {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-title {
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-infos {
+  padding: 0 20px;
+}
+
+.card-ingredient-cl {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-bottom: 1px;
+}
+
+.card-ingredient {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+.allergy {
+  font-size: 16px;
+  padding-bottom: 19px;
+}
+
+.card-button-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjusted to distribute space evenly */
+  gap: 70px;
+}
+
 .card-button {
   border: 1px solid #000;
   background-color: white;
@@ -13,33 +73,15 @@
   width: 19px;
 }
 
-.card-ingredient {
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.card-text {
-  font-weight: 300;
-  font-size: 20px;
-}
-
-.card-ingredient-cl {
-  display: flex;
-  gap: 226px;
-  font-size: 20px;
-}
-
-.allergy {
-  font-size: 16px;
-}
-
-.card-button-price {
-  display: flex;
-  align-items: center;
-  gap: 83px;
-}
-
 .card-price {
   font-weight: 900;
   font-size: 20px;
+}
+
+.card-more-infos {
+  text-align: center;
+  font-weight: 300;
+  line-height: 35px;
+  font-size: 30px;
+  margin-top: 120px;
 }
