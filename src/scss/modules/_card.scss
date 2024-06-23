@@ -1,0 +1,45 @@
+.card-button {
+  border: 1px solid #000;
+  background-color: white;
+  padding: 4px 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-img {
+  width: 19px;
+}
+
+.card-ingredient {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.card-ingredient-cl {
+  display: flex;
+  gap: 226px;
+  font-size: 20px;
+}
+
+.allergy {
+  font-size: 16px;
+}
+
+.card-button-price {
+  display: flex;
+  align-items: center;
+  gap: 83px;
+}
+
+.card-price {
+  font-weight: 900;
+  font-size: 20px;
+}
